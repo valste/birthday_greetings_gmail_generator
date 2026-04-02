@@ -1,0 +1,4 @@
+**/**
+!.claspignore
+!appsscript.json
+!src/**/*.js

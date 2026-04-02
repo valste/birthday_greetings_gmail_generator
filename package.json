@@ -1,0 +1,22 @@
+{
+  "name": "birthday_bot",
+  "version": "1.0.0",
+  "description": "Google Apps Script birthday greeting agent",
+  "main": "src/birthday-agent.js",
+  "scripts": {
+    "clasp:create": "clasp create --type standalone --title \"Birthday Agent\"",
+    "clasp:login": "clasp login",
+    "clasp:open": "clasp open",
+    "clasp:pull": "clasp pull",
+    "clasp:push": "clasp push",
+    "sync:props": "node scripts/sync-props.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@google/clasp": "^3.3.0"
+  }
+}
